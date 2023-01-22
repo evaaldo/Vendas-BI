@@ -1,0 +1,11 @@
+{
+  "FileFormatVersion": 4,
+  "ActivityID": "DB51C088-3928-4834-9293-60DAE199D55F",
+  "FormulaEngineDuration": 6,
+  "StoreageEngineEvents": [],
+  "TotalDuration": 6,
+  "QueryEndDateTime": "2023-01-21T13:53:08.806667-03:00",
+  "QueryStartDateTime": "2023-01-21T13:53:08.8-03:00",
+  "CommandText": "EVALUATE\nROW (\n    \"Teste\",\n        CALCULATE(\n\t        [Total Vendas] * 1.3,\n\t        Tb_ItensNotas[Quantidade] > 20\n\t        )\n\t        +\n\t    CALCULATE(\n\t    \t[Total Vendas] * 0.5,\n\t    \tTb_ItensNotas[Quantidade] < 20\n\t    \t)\n)",
+  "WaterfallTotalDuration": 281
+}
